@@ -190,6 +190,7 @@ ul {
   font-size: 40px;
   letter-spacing: 3px;
   position: relative;
+  cursor:default;
 }
 
 .aside .nav-toggler span {
@@ -718,7 +719,6 @@ h3.my-services {
   border: 6px solid var(--bg-black-100);
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
@@ -805,6 +805,13 @@ h3.my-services {
 
 
 .contact .contact-info-item p {
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--text-black-700);
+  font-weight: 400;
+}
+
+.contact .contact-info-item p a{
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
