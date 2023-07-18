@@ -3,11 +3,11 @@
 
 var typed = new Typed(".typing", {
   strings: 
-  ["Mantenimiento y reparación de equipos rotativos.", "",
+  [
   "Servicio técnico especializado y mantenimiento de equipos industriales.", "",
   "Soldaduras especializadas segun procedimientos: SAW, MIGMAG, GMAW, FSAW, TIG, GTAW y SMAW.", "",
   "Rolado de láminas.", "",   
-  "Fabricación de piezas de metalmecánica.", "",
+  "Fabricación de piezas metalmecánicas.", "",
   "Soluciones de ingeniería.", ""
 ],
 typeSpeed: 60,
