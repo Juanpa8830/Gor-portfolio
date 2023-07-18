@@ -639,7 +639,7 @@ h3.my-services {
   padding: 30px 15px;
   text-align: center;
   transition: all 0.15s ease;
-  height: 250px;
+  height: 300px;
 }
 
 .service .service-item .service-item-inner:hover {
@@ -678,7 +678,7 @@ h3.my-services {
 }
 
 .service .service-item .service-item-inner h4 {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 15px;
   color: var(--text-black-900);
   font-weight: 700;
