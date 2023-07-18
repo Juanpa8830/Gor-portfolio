@@ -138,5 +138,17 @@ function validateEmail(email) {
 }
 
 window.onload = function resetForm() {
+  const form = document.getElementById('form');
+  const scrollYPosition = localStorage.getItem('scrollYPosition');
+
+  if (scrollYPosition) {
+    window.scrollTo(0, scrollYPosition);
+  }
+
   form.reset();
 };
+
+window.addEventListener('beforeunload', function saveScrollYPosition() {
+  const scrollYPosition = window.scrollY;
+  localStorage.setItem('scrollYPosition', scrollYPosition);
+});
