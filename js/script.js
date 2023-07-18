@@ -106,13 +106,18 @@ aside = document.querySelector(".aside");
 
 // email form validation
 const errorMessage = document.getElementById('error_message');
-const email = document.getElementById('email');
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
 const form = document.getElementById('form');
 
 form.addEventListener('submit', (event) => {
-  if (email.value.toLowerCase() !== email.value) {
+  if (!validateName(nameInput.value)) {
     event.preventDefault();
-    errorMessage.textContent = 'Only LowerCase characters are allowed in email!!!';
+    errorMessage.textContent = 'El campo de nombre solo debe contener letras.';
+    errorMessage.style.display = 'inline-block';
+  } else if (!validateEmail(emailInput.value)) {
+    event.preventDefault();
+    errorMessage.textContent = 'Solo se permiten caracteres en minúsculas en el correo electrónico.';
     errorMessage.style.display = 'inline-block';
   } else {
     errorMessage.textContent = '';
@@ -120,7 +125,18 @@ form.addEventListener('submit', (event) => {
   }
 });
 
+function validateName(name) {
+  // Expresión regular para verificar si solo contiene letras
+  const lettersRegex = /^[A-Za-zÁáÉéÍíÓóÚúÜüÑñ\s]+$/;
+  return lettersRegex.test(name);
+}
+
+function validateEmail(email) {
+  // Expresión regular para verificar si solo contiene caracteres en minúsculas en el correo electrónico
+  const lowercaseRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+  return lowercaseRegex.test(email);
+}
+
 window.onload = function resetForm() {
-  const form = document.getElementById('form');
   form.reset();
 };
