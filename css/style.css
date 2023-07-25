@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=:wght@200;300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Merienda&family=Poppins:wght@200;300;400;500;600&display=swap');
+
 :root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
@@ -343,6 +345,7 @@ h3.my-services {
 
 .typing {
   color: var(--skin-color);
+  font-family: 'Merienda', sans-serif;
 }
 
 .home-info p {
@@ -350,6 +353,8 @@ h3.my-services {
   font-size: 20px;
   color: var(--text-black-700);
   text-align: justify;
+  font-family: 'Merienda', sans-serif;
+  font-weight: 600;
 }
 
 .home .home-img {
@@ -404,7 +409,8 @@ h3.my-services {
   margin-bottom: 15px;
   font-weight: 700;
   color: var(--text-black-900);
-}
+  font-family: 'Merienda', sans-serif;
+  }
 
 .about .about-content .about-text h3 span {
   color: var(--skin-color);
@@ -416,6 +422,8 @@ h3.my-services {
   max-width: 95%;
   text-align: justify;
   color: var(--text-black-700);
+  font-family: 'Merienda', sans-serif;
+  font-weight: 200;
 }
 
 .about .about-content .personal-info {
@@ -429,6 +437,7 @@ h3.my-services {
   margin-bottom: 15px;
   font-weight: 700;
   color: var(--text-black-900);
+  font-family: 'Merienda', sans-serif;
 }
 
 .about .about-content .personal-info p {
@@ -437,10 +446,12 @@ h3.my-services {
   max-width: 95%;
   text-align: justify;
   color: var(--text-black-700);
+  font-family: 'Merienda', sans-serif;
 }
 
 .about .about-content .buttons {
   margin-top: 30px;
+  
 }
 
 .about .about-content .buttons .btn {
@@ -459,6 +470,7 @@ h3.my-services {
   margin-bottom: 50px;
   font-weight: 700;
   color: var(--text-black-900);
+  font-family: 'Merienda', sans-serif;
 }
 
 .about .about-content .skills .skill-item {
@@ -622,7 +634,7 @@ h3.my-services {
 /* Services */
 
 .service .container {
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 .service .service-item {
@@ -636,10 +648,11 @@ h3.my-services {
   background-color: var(--bg-black-100);
   border: 1px solid var(--bg-black-50);
   border-radius: 10px;
-  padding: 30px 15px;
+  padding: 40px 15px;
   text-align: center;
   transition: all 0.15s ease;
   height: 300px;
+  margin-top: 50px;
 }
 
 .service .service-item .service-item-inner:hover {
@@ -678,7 +691,8 @@ h3.my-services {
 }
 
 .service .service-item .service-item-inner h4 {
-  font-size: 15px;
+  font-size: 18px;
+  font-family: 'Merienda', sans-serif;
   margin-bottom: 15px;
   color: var(--text-black-900);
   font-weight: 700;
@@ -706,6 +720,7 @@ h3.my-services {
 .portfolio .portfolio-heading h2 {
   color: var(--text-black-900);
   font-weight: 500;
+  font-family: 'Merienda', sans-serif;
 }
 
 .portfolio .portfolio-item {
@@ -776,6 +791,7 @@ h3.my-services {
   text-align: center;
   font-size: 15px;
   margin-bottom: 60px;
+  font-family: 'Merienda', sans-serif;
 }
 
 .contact .contact-info-item {
