@@ -975,6 +975,19 @@ h3.my-services {
     max-width: 100%;
   }
 
+  .portfolio .portfolio-item {
+
+    flex: 0 0 100%;
+    max-width: 100%;
+    
+  }
+
+  .portfolio .portfolio-item-inner .portfolio-img img {
+    width: 100%;
+    height: 300px;
+    display: block;
+  }
+
   .row .box {
     display: flex;
     flex-direction: column;
