@@ -724,8 +724,8 @@ h3.my-services {
 
 .portfolio .portfolio-item {
 
-  flex: 0 0 60%;
-  max-width: 50%;
+  flex: 0 0 80%;
+  max-width: 70%;
   
 }
 
@@ -736,7 +736,7 @@ h3.my-services {
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
-  width: 140%;
+  width: 100%;
   height: 390px;
   display: block;
 }
