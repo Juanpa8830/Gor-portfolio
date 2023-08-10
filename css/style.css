@@ -834,6 +834,12 @@ h3.my-services {
   font-weight: 400;
 }
 
+.contact_mail{
+  color: var(--text-black-700);
+  text-decoration: none;
+  font-size: 16px;
+}
+
 /* Form */
 .fila2 {
   display: flex;
