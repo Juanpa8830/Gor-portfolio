@@ -329,11 +329,12 @@ h3.hello {
   font-size: 28px;
   margin: 15px 0;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 h3.hello span {
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 700;
   color: var(--skin-color);
 }
