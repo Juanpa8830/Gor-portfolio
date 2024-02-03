@@ -501,7 +501,7 @@ h3.my-services {
   left: 0;
   top: 0;
   height: 100%;
-  width: 86%;
+  width: 100%;
   border-radius: 4px;
   background-color: var(--skin-color);
 }
@@ -511,7 +511,7 @@ h3.my-services {
   left: 0;
   top: 0;
   height: 100%;
-  width: 90%;
+  width: 100%;
   border-radius: 4px;
   background-color: var(--skin-color);
 }
@@ -521,7 +521,7 @@ h3.my-services {
   left: 0;
   top: 0;
   height: 100%;
-  width: 90%;
+  width: 100%;
   border-radius: 4px;
   background-color: var(--skin-color);
 }
@@ -545,8 +545,33 @@ h3.my-services {
   color: var(--text-black-900);
   top: -40px;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 50px;
 }
+
+.row-cert .cert {
+  display: flex;
+  width: 100%;
+  height: 700 px;
+  margin-top: 5%;
+}
+
+.row-cert .cert img {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.3;
+  transition: .5s ease;
+  border-radius: 10%;
+  }
+.row-cert .cert img:hover {
+
+  cursor: crosshair;
+  width: 40%;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+
 
 .about .about-content .education,
 .about .about-content .experience {
